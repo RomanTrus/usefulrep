@@ -71,13 +71,13 @@ function getStringFromTemplate(firstName, lastName) {
 function extractNameFromTemplate(value) {
     throw new Error('Not implemented');
 }
-
-
+ATATAT CHANGES!
+CHANGES SOME CHANGES
 /**
  * Returns a first char of the given string.
  *
  * @param {string} value
- * @return {string}
+ * @return {ATATATAT}
  *
  * @example
  *   'John Doe'  => 'J'
