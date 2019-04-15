@@ -25,7 +25,7 @@ function concatenateStrings(value1, value2) {
     throw new Error('Not implemented');
 }
 
-
+MORE CHANGES!!!
 /**
  * Returns the length of given string.
  *
