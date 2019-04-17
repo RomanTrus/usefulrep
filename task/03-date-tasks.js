@@ -24,7 +24,11 @@
 function parseDataFromRfc2822(value) {
    throw new Error('Not implemented');
 }
+<<<<<<< HEAD
 test 3 changes
+=======
+
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
 /**
  * Parses an ISO 8601 string date representation into date value
  * For ISO 8601 date specification refer to : https://en.wikipedia.org/wiki/ISO_8601

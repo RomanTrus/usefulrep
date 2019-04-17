@@ -444,9 +444,12 @@ describe('04-arrays-tasks', function() {
             }, {
                 arr:      [ null, 1, 'elephant' ],
                 expected: 1
+<<<<<<< HEAD
             }, {
                 arr:      [ 1, '2' ],
                 expected: 1
+=======
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
             }
         ].forEach(data => {
             var actual = tasks.getPositivesCount(data.arr);

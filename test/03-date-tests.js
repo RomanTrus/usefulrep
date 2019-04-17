@@ -19,7 +19,11 @@ describe('03-date-tasks', function() {
 
         assert.equal(
             895370400000,
+<<<<<<< HEAD
             tasks.parseDataFromRfc2822('Sun, 17 May 1998 03:00:00 GMT+0100').valueOf()
+=======
+            tasks.parseDataFromRfc2822('Sun, 17 May 1998 03:00:00 GMT+01').valueOf()
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
         );
     });
 

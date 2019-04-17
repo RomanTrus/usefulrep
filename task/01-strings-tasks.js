@@ -25,7 +25,11 @@ function concatenateStrings(value1, value2) {
     throw new Error('Not implemented');
 }
 
+<<<<<<< HEAD
 MORE CHANGES!!!
+=======
+
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
 /**
  * Returns the length of given string.
  *
@@ -71,13 +75,22 @@ function getStringFromTemplate(firstName, lastName) {
 function extractNameFromTemplate(value) {
     throw new Error('Not implemented');
 }
+<<<<<<< HEAD
 ATATAT CHANGES!
 CHANGES SOME CHANGES
+=======
+
+
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
 /**
  * Returns a first char of the given string.
  *
  * @param {string} value
+<<<<<<< HEAD
  * @return {ATATATAT}
+=======
+ * @return {string}
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
  *
  * @example
  *   'John Doe'  => 'J'
@@ -119,7 +132,11 @@ function repeatString(value, count) {
 
 /**
  * Remove the first occurrence of string inside another string
+<<<<<<< HEAD
  * 
+=======
+ *
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
  * @param {string} str
  * @param {string} value
  * @return {string}
@@ -244,30 +261,61 @@ function isString(value) {
 
 /**
  * Returns playid card id.
+<<<<<<< HEAD
  * 
  * Playing cards inittial deck inclides the cards in the following order:
  * 
+=======
+ *
+ * Playing cards inittial deck inclides the cards in the following order:
+ *
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
  *  'A♣','2♣','3♣','4♣','5♣','6♣','7♣','8♣','9♣','10♣','J♣','Q♣','K♣',
  *  'A♦','2♦','3♦','4♦','5♦','6♦','7♦','8♦','9♦','10♦','J♦','Q♦','K♦',
  *  'A♥','2♥','3♥','4♥','5♥','6♥','7♥','8♥','9♥','10♥','J♥','Q♥','K♥',
  *  'A♠','2♠','3♠','4♠','5♠','6♠','7♠','8♠','9♠','10♠','J♠','Q♠','K♠'
+<<<<<<< HEAD
  * 
  * (see https://en.wikipedia.org/wiki/Standard_52-card_deck)
  * Function returns the zero-based index of specified card in the initial deck above.
  * 
+=======
+ *
+ * (see https://en.wikipedia.org/wiki/Standard_52-card_deck)
+ * Function returns the zero-based index of specified card in the initial deck above.
+ *
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
  * @param {string} value
  * @return {number}
  *
  * @example
  *   'A♣' => 0
+<<<<<<< HEAD
  *   '2♣' => 1 
+=======
+ *   '2♣' => 1
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
  *   '3♣' => 2
  *     ...
  *   'Q♠' => 50
  *   'K♠' => 51
  */
 function getCardId(value) {
+<<<<<<< HEAD
     throw new Error('Not implemented');
+=======
+    let deck=[
+         'A♣','2♣','3♣','4♣','5♣','6♣','7♣','8♣','9♣','10♣','J♣','Q♣','K♣',
+         'A♦','2♦','3♦','4♦','5♦','6♦','7♦','8♦','9♦','10♦','J♦','Q♦','K♦',
+         'A♥','2♥','3♥','4♥','5♥','6♥','7♥','8♥','9♥','10♥','J♥','Q♥','K♥',
+         'A♠','2♠','3♠','4♠','5♠','6♠','7♠','8♠','9♠','10♠','J♠','Q♠','K♠'
+    ];
+for (var i=0; i<deck.length;i++){
+  if (deck[i]==value){
+    return i;
+  }
+}
+>>>>>>> a1dfcb71cd77f61c249456f121c1fc8c227cc9f8
 }
 
 
